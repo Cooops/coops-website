@@ -105,6 +105,10 @@ export default function Home() {
         <h2 className="text-sm uppercase tracking-widest text-stone">Taste</h2>
         <div className="space-y-3">
           <div>
+            <a href="/reading" className="text-ink hover:text-ochre">Reading</a>
+            <span className="text-stone"> — Articles and ideas worth saving.</span>
+          </div>
+          <div>
             <a href="#" className="text-ink hover:text-ochre">Obscura</a>
             <span className="text-stone"> — Baroque-meets-digital. Warm ochres, classical motifs.</span>
           </div>
@@ -116,8 +120,6 @@ export default function Home() {
         <h2 className="text-sm uppercase tracking-widest text-stone">Connect</h2>
         <p className="text-ink-muted">
           <a href="https://github.com/cooops" target="_blank" rel="noopener noreferrer" className="text-ink hover:text-ochre">GitHub</a>
-          {" · "}
-          <a href="https://twitter.com/coopesmtg" target="_blank" rel="noopener noreferrer" className="text-ink hover:text-ochre">Twitter</a>
           {" · "}
           <a href="https://www.linkedin.com/in/cooper-ribb/" target="_blank" rel="noopener noreferrer" className="text-ink hover:text-ochre">LinkedIn</a>
           {" · "}
